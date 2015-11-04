@@ -1,0 +1,14 @@
+name: Test Plugin
+version: 1.0.0
+api: 1.0.0
+main: TestDirectory\Continue\Commands\
+author: Xeroth
+ description: Test Plugin
+ commands: /<command>
+ test:
+ permission:<empty>
+permissions:
+ <empty>
+ description: Test Command
+ default: op
+ 
